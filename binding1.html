@@ -31,17 +31,16 @@
 
 <div class="jumbotron">
     <div ng-app>
-
-        <input type="text" data-ng-model="data.message">
+        <input type="text" ng-model="data.message">
         {{data.message}}
 
         <div ng-controller="FirstCtrl">
-            <input type="text" data-ng-model="data.message">
+            <input type="text" ng-model="data.message">
             {{data.message}}
         </div>
 
-        <div ng-controller="SencondCtrl">
-            <input type="text" data-ng-model="data.message">
+        <div ng-controller="SecondCtrl">
+            <input type="text" ng-model="data.message">
             {{data.message}}
         </div>
 
@@ -58,6 +57,17 @@
 <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.0.6/angular.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
-<script src="js/main.js"></script>
+<script>
+
+    function FirstCtrl($scope){
+       // return $scope.data = {message : "hello"}
+    }
+
+
+    function SecondCtrl($scope){
+       // return $scope.data = {message : "hello world"}
+
+    }
+</script>
 </body>
 </html>

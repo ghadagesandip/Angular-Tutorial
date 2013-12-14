@@ -33,14 +33,14 @@
     <div ng-app>
 
         <input type="text" data-ng-model="message">
-        {{message}}
+          {{message}}
 
         <div ng-controller="FirstCtrl">
             <input type="text" data-ng-model="message">
             {{message}}
         </div>
 
-        <div ng-controller="SencondCtrl">
+        <div ng-controller="SecondCtrl">
             <input type="text" data-ng-model="message">
             {{message}}
         </div>
@@ -58,6 +58,17 @@
 <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.0.6/angular.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
-<script src="js/main.js"></script>
+<script >
+
+    function FirstCtrl($scope){
+
+    }
+
+    function SecondCtrl($scope){
+
+    }
+
+</script>
+
 </body>
 </html>

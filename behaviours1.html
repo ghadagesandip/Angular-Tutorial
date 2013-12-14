@@ -30,21 +30,8 @@
 </div>
 
 <div class="jumbotron">
-
-    <div ng-app="myApp">
-
-        <div ng-controller="FirstCtrl">
-            <input type="text" data-ng-model="data.message">
-            {{data.message}}
-        </div>
-
-        <div ng-controller="SecondCtrl">
-            <input type="text" data-ng-model="data.message">
-            {{data.message}}<br/>
-            Revesre : {{reverseMessage(data.message)}}
-        </div>
-
-
+    <div ng-app="myBehaviourApp">
+        <div enter="panel" leave>I am content</div>
     </div>
 </div>
 
@@ -58,25 +45,28 @@
 <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.0.6/angular.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
 <script>
-    var myApp = angular.module("myApp", []);
 
-    myApp.factory("Data", function(){
-        return {message : "I am data from service"}
+    var myApp = angular.module('myBehaviourApp',[]);
+
+    myApp.directive('enter',function(){
+
+        return function($scope, element, attrs){
+            element.bind("mouseenter",function(){
+                element.addClass(attrs.enter);
+            })
+        }
+
     });
 
+    myApp.directive('leave',function(){
 
-    function FirstCtrl($scope,Data){
-        $scope.data = Data;
-    }
-
-
-    function SecondCtrl($scope,Data){
-        $scope.data = Data;
-        $scope.reverseMessage = function(message){
-           return message.split("").reverse().join("");
-
+        return function($scope, element, attrs){
+            element.bind("mouseenter",function(){
+                element.removeClass(attrs.enter);
+            })
         }
-    }
+
+    });
 
 </script>
 </body>

@@ -1,17 +1,17 @@
 var myApp = angular.module("myApp", []);
 
 myApp.factory("Data", function(){
-    return {message : "this message is from service"}
+    return {message : "I am data from service"}
 });
 
 
+
 function FirstCtrl($scope,Data){
-$scope.data = Data
+    $scope.data = Data;
 }
 
-function SencondCtrl($scope,Data){
-    $scope.data = Data
-    $scope.reverseMessage = function(){
-        return $scope.data.message.split("").reverse().join("");
-    }
+
+function SecondCtrl($scope,Data){
+    $scope.data = Data;
+
 }
