@@ -1,6 +1,7 @@
 
 var angularJsAppModule = angular.module('angularJsApp',[]);
 
+
 angularJsAppModule.config(function($routeProvider){
 
     $routeProvider.when('/user',{
@@ -8,7 +9,7 @@ angularJsAppModule.config(function($routeProvider){
         controller : 'UsersCtrl'
     }).when('/new',{
         templateUrl : 'views/form.html',
-        controller: 'CreateCtrl'
+        controller: 'UsersCtrl'
 
     }).otherwise({
         templateUrl : 'views/users.html',
@@ -18,12 +19,12 @@ angularJsAppModule.config(function($routeProvider){
 
 });
 
-angularJsAppModule.controller('UsersCtrl', function($scope){
-
-    $scope.users = [
+angularJsAppModule.factory("Users", function(){
+    var users = {};
+    users= [
         {
             id:1,
-            name:'sandip ghadge',
+            name:'sandip ghadge s',
             age:26,
             gender:'male'
 
@@ -41,21 +42,30 @@ angularJsAppModule.controller('UsersCtrl', function($scope){
             age:35,
             gender:'male'
 
-        }
+        }];
 
-    ];
-
-
+    return users;
 });
 
+angularJsAppModule.controller('UsersCtrl', function($scope,Users,$location){
+    $scope.users = Users;
 
-angularJsAppModule.controller('CreateCtrl', function($scope,$location){
     $scope.save = function(){
-        $scope.users.push({id: $scope.user.id, name:$scope.user.name, age:$scope.user.age,gender: $scope.user.gender});
+        $scope.users = Users;
+        $scope.users.push($scope.user);
+        console.log('save method called');
+        console.log($scope.users)
         $location.path('/');
-        console.log( $scope.users);
     }
+
+    $scope.delete = function(){
+        $scope.user.$remove();
+        $location.path('/');
+    }
+
 });
+
+
 
 
 
