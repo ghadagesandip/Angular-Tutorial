@@ -50,19 +50,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="users.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="users.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/users.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="0" selection-start="623" selection-end="623" vertical-scroll-proportion="0.57361376">
+            <state line="20" column="0" selection-start="623" selection-end="623" vertical-scroll-proportion="-12.5">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="form.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="form.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/views/form.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="39" selection-start="583" selection-end="583" vertical-scroll-proportion="-13.125">
+            <state line="3" column="8" selection-start="108" selection-end="108" vertical-scroll-proportion="0.08604206">
               <folding />
             </state>
           </provider>
@@ -97,7 +97,6 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/views/form.html" />
         <option value="$PROJECT_DIR$/binding.html" />
         <option value="$PROJECT_DIR$/js/main.js" />
         <option value="$PROJECT_DIR$/binding1.html" />
@@ -112,6 +111,7 @@
         <option value="$PROJECT_DIR$/behaviours1.html" />
         <option value="$PROJECT_DIR$/js/app.js" />
         <option value="$PROJECT_DIR$/views/users.html" />
+        <option value="$PROJECT_DIR$/views/form.html" />
       </list>
     </option>
   </component>
@@ -163,34 +163,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="Angular-Tutorial" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="angularApp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Angular-Tutorial" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="angularApp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Angular-Tutorial" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -455,9 +427,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/form.html">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="39" selection-start="583" selection-end="583" vertical-scroll-proportion="-13.125">
+        <state line="36" column="23" selection-start="1564" selection-end="1564" vertical-scroll-proportion="-13.125">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/users.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="0" selection-start="623" selection-end="623" vertical-scroll-proportion="-12.5">
           <folding />
         </state>
       </provider>
@@ -469,16 +448,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/views/form.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="23" selection-start="1564" selection-end="1564" vertical-scroll-proportion="-13.125">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/users.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="0" selection-start="623" selection-end="623" vertical-scroll-proportion="0.57361376">
+        <state line="3" column="8" selection-start="108" selection-end="108" vertical-scroll-proportion="0.08604206">
           <folding />
         </state>
       </provider>
