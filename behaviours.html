@@ -61,7 +61,7 @@
     myApp.directive('leave',function(){
 
         return function($scope,element){
-            element.bind("mouseenter",function(){
+            element.bind("mouseleave",function(){
                 console.log("mouse out event occured");
             })
         }

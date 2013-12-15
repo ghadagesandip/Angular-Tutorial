@@ -4,22 +4,18 @@ var angularJsAppModule = angular.module('angularJsApp',[]);
 
 angularJsAppModule.config(function($routeProvider){
 
-    $routeProvider.when('/user',{
+    $routeProvider.when('/users',{
         templateUrl : 'views/users.html',
         controller : 'UsersCtrl'
-    }).when('/new',{
-        templateUrl : 'views/form.html',
-        controller: 'UsersCtrl'
-
     }).otherwise({
-        templateUrl : 'views/users.html',
-        controller : 'UsersCtrl'
+       redirectTo :'/users'
     });
 
 
 });
 
-angularJsAppModule.factory("Users", function(){
+angularJsAppModule.factory("Users", function($http){
+    var factory = {};
     var users = {};
     users= [
         {
@@ -44,23 +40,38 @@ angularJsAppModule.factory("Users", function(){
 
         }];
 
-    return users;
-});
-
-angularJsAppModule.controller('UsersCtrl', function($scope,Users,$location){
-    $scope.users = Users;
-
-    $scope.save = function(){
-        $scope.users = Users;
-        $scope.users.push($scope.user);
-        console.log('save method called');
-        console.log($scope.users)
-        $location.path('/');
+    factory.getUsers = function(){
+        return users;
     }
 
+    factory.addUsers = function(newUser){
+        users.push(newUser);
+        return true;
+    }
+
+    return factory;
+
+});
+
+angularJsAppModule.controller('UsersCtrl', function($scope,Users){
+
+    $scope.users = [];
+
+    init();
+    function init(){
+        $scope.users = Users.getUsers();
+    }
+
+    $scope.addNewUser = function(){
+      $scope.newUser.id = $scope.users.length
+      if(Users.addUsers($scope.newUser)){
+          $scope.newUser ={};
+      }
+    }
+
+
     $scope.delete = function(){
-        $scope.user.$remove();
-        $location.path('/');
+        
     }
 
 });

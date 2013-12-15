@@ -61,7 +61,7 @@
     myApp.directive('leave',function(){
 
         return function($scope, element, attrs){
-            element.bind("mouseenter",function(){
+            element.bind("mouseleave",function(){
                 element.removeClass(attrs.enter);
             })
         }

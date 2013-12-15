@@ -11,10 +11,20 @@
             <th>Name</th>
             <th>Age</th>
             <th>Gender</th>
-            <th><a href="#/new"><i class="glyphicon glyphicon-plus-sign"></i></a></th>
+            <th>Actions</th>
         </tr>
         </thead>
         <tbody>
+        <tr>
+            <td>&nbsp;</td>
+            <td><input type="text" data-ng-model="newUser.name"></td>
+            <td><input type="text" data-ng-model="newUser.age"></td>
+            <td><input type="text" data-ng-model="newUser.gender"></td>
+            <th>
+                <input type="button" class="btn btn-success" ng-click="addNewUser()" value="Add">
+            </th>
+        </tr>
+
         <tr data-ng-repeat="user in users | filter:search | orderBy:'id'">
             <td>{{user.id}}</td>
             <td>{{user.name}}</td>
