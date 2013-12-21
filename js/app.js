@@ -55,15 +55,17 @@ angularJsAppModule.factory("Users", function($http){
 
 angularJsAppModule.controller('UsersCtrl', function($scope,Users){
 
+    $scope.genders = {male:'Male',female:'Female'};
     $scope.users = [];
-
+    console.log('init called');
     init();
     function init(){
         $scope.users = Users.getUsers();
+
     }
 
     $scope.addNewUser = function(){
-      $scope.newUser.id = $scope.users.length
+      $scope.newUser.id = $scope.users.length+1
       if(Users.addUsers($scope.newUser)){
           $scope.newUser ={};
       }
@@ -71,7 +73,7 @@ angularJsAppModule.controller('UsersCtrl', function($scope,Users){
 
 
     $scope.delete = function(){
-        
+
     }
 
 });
