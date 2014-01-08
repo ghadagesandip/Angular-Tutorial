@@ -25,13 +25,14 @@
             </button>
             <a class="navbar-brand" href="#">Angular Js App</a>
         </div>
-
     </div>
 </div>
 
 <div class="jumbotron">
     <div ng-app="myApp">
-        <div flash1 flash2></div>
+        <panel>
+            <div class="btn">Click here</div>
+        </panel>
     </div>
 </div>
 
@@ -46,26 +47,14 @@
 <script src="js/bootstrap.min.js"></script>
 <script>
 
-    var myApp = angular.module('myApp',[]);
-
-    myApp.directive("flash1",function(){
-       return {
-           restrict : "A",
-           link : function(){
-               console.log("i am working flash 1")
-           }
-       }
-    });
-
-    myApp.directive("flash2",function(){
-        return {
-            restrict : "A",
-            link : function(){
-                console.log("i am working flash 2")
-            }
+ var app = angular.module("myApp",[]);
+    app.directive("panel",function(){
+        return{
+            restrict:"E",
+            transclude:true,
+            template:"<div class='panel' ng-transclude>Hi there this is from panel</div>"
         }
     });
-
 </script>
 </body>
 </html>

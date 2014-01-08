@@ -5,7 +5,7 @@
     <ignored path="angularApp.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/index.html" changelist="cdb3abf6-e458-4fc4-9442-ca137b3cafed" time="1387563711479" ignored="false" />
-    <file path="/app.js" changelist="cdb3abf6-e458-4fc4-9442-ca137b3cafed" time="1387640012965" ignored="false" />
+    <file path="/app.js" changelist="cdb3abf6-e458-4fc4-9442-ca137b3cafed" time="1388169024160" ignored="false" />
     <file path="/users.html" changelist="cdb3abf6-e458-4fc4-9442-ca137b3cafed" time="1387651547684" ignored="false" />
     <file path="/error.html" changelist="cdb3abf6-e458-4fc4-9442-ca137b3cafed" time="1386424589683" ignored="false" />
     <file path="/a.php" changelist="cdb3abf6-e458-4fc4-9442-ca137b3cafed" time="1386491216605" ignored="false" />
@@ -18,11 +18,35 @@
     <file path="/filter.html" changelist="cdb3abf6-e458-4fc4-9442-ca137b3cafed" time="1387014927569" ignored="false" />
     <file path="/filter1.html" changelist="cdb3abf6-e458-4fc4-9442-ca137b3cafed" time="1387017269212" ignored="false" />
     <file path="/directives.html" changelist="cdb3abf6-e458-4fc4-9442-ca137b3cafed" time="1387018422366" ignored="false" />
-    <file path="/directives1.html" changelist="cdb3abf6-e458-4fc4-9442-ca137b3cafed" time="1387018650302" ignored="false" />
-    <file path="/directives2.html" changelist="cdb3abf6-e458-4fc4-9442-ca137b3cafed" time="1387018852431" ignored="false" />
+    <file path="/directives1.html" changelist="cdb3abf6-e458-4fc4-9442-ca137b3cafed" time="1387721296671" ignored="false" />
+    <file path="/directives2.html" changelist="cdb3abf6-e458-4fc4-9442-ca137b3cafed" time="1387721322134" ignored="false" />
     <file path="/behaviours.html" changelist="cdb3abf6-e458-4fc4-9442-ca137b3cafed" time="1387019428346" ignored="false" />
     <file path="/behaviours1.html" changelist="cdb3abf6-e458-4fc4-9442-ca137b3cafed" time="1387019821143" ignored="false" />
     <file path="/Dummy.txt" changelist="cdb3abf6-e458-4fc4-9442-ca137b3cafed" time="1387563098743" ignored="false" />
+    <file path="/derectives3.html" changelist="cdb3abf6-e458-4fc4-9442-ca137b3cafed" time="1387726875211" ignored="false" />
+    <file path="/directive3.html" changelist="cdb3abf6-e458-4fc4-9442-ca137b3cafed" time="1387733077379" ignored="false" />
+    <file path="/directive4.html" changelist="cdb3abf6-e458-4fc4-9442-ca137b3cafed" time="1387972780117" ignored="false" />
+    <file path="/directive5.html" changelist="cdb3abf6-e458-4fc4-9442-ca137b3cafed" time="1387965963534" ignored="false" />
+    <file path="/transclusion.html" changelist="cdb3abf6-e458-4fc4-9442-ca137b3cafed" time="1387974716026" ignored="false" />
+    <file path="$PROJECT_DIR$/../cakephp-angular/Config/database.php" changelist="cdb3abf6-e458-4fc4-9442-ca137b3cafed" time="1387977920211" ignored="false" />
+    <file path="$PROJECT_DIR$/../cakephp-angular/Config/routes.php" changelist="cdb3abf6-e458-4fc4-9442-ca137b3cafed" time="1387989981718" ignored="false" />
+    <file path="$PROJECT_DIR$/../cakephp-angular/View/Layouts/default.ctp" changelist="cdb3abf6-e458-4fc4-9442-ca137b3cafed" time="1387980156798" ignored="false" />
+    <file path="/default.ctp" changelist="cdb3abf6-e458-4fc4-9442-ca137b3cafed" time="1387979765580" ignored="false" />
+    <file path="$PROJECT_DIR$/../cakephp-angular/webroot/js/angularApp.js" changelist="cdb3abf6-e458-4fc4-9442-ca137b3cafed" time="1387999524171" ignored="false" />
+    <file path="$PROJECT_DIR$/../cakephp-angular/View/Posts/index.ctp" changelist="cdb3abf6-e458-4fc4-9442-ca137b3cafed" time="1387978972878" ignored="false" />
+    <file path="/angularApp.js" changelist="cdb3abf6-e458-4fc4-9442-ca137b3cafed" time="1387999296015" ignored="false" />
+    <file path="$PROJECT_DIR$/../cakephp-angular/webroot/AngularViews/Posts/index.ctp" changelist="cdb3abf6-e458-4fc4-9442-ca137b3cafed" time="1387996131543" ignored="false" />
+    <file path="/index.ctp" changelist="cdb3abf6-e458-4fc4-9442-ca137b3cafed" time="1387995927156" ignored="false" />
+    <file path="$PROJECT_DIR$/../cakephp-angular/webroot/AngularViews/Posts/add.ctp" changelist="cdb3abf6-e458-4fc4-9442-ca137b3cafed" time="1387984371153" ignored="false" />
+    <file path="/add.ctp" changelist="cdb3abf6-e458-4fc4-9442-ca137b3cafed" time="1387984248346" ignored="false" />
+    <file path="$PROJECT_DIR$/../cakephp-angular/webroot/css/bootstrap.css" changelist="cdb3abf6-e458-4fc4-9442-ca137b3cafed" time="1387984441824" ignored="false" />
+    <file path="/bootstrap.css" changelist="cdb3abf6-e458-4fc4-9442-ca137b3cafed" time="1387984441824" ignored="false" />
+    <file path="$PROJECT_DIR$/../cakephp-angular/Controller/AppController.php" changelist="cdb3abf6-e458-4fc4-9442-ca137b3cafed" time="1387989311659" ignored="false" />
+    <file path="$PROJECT_DIR$/../cakephp-angular/Controller/PostsController.php" changelist="cdb3abf6-e458-4fc4-9442-ca137b3cafed" time="1387992012195" ignored="false" />
+    <file path="/PostsController.php" changelist="cdb3abf6-e458-4fc4-9442-ca137b3cafed" time="1387990788945" ignored="false" />
+    <file path="/dummy.txt" changelist="cdb3abf6-e458-4fc4-9442-ca137b3cafed" time="1387997085900" ignored="false" />
+    <file path="/directive6.html" changelist="cdb3abf6-e458-4fc4-9442-ca137b3cafed" time="1388585659277" ignored="false" />
+    <file path="/zipp.html" changelist="cdb3abf6-e458-4fc4-9442-ca137b3cafed" time="1388587656255" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,28 +66,28 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="app.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/app.js">
+      <file leaf-file-name="directive4.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/directive4.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="69" column="27" selection-start="1359" selection-end="1359" vertical-scroll-proportion="0.0">
+            <state line="61" column="13" selection-start="1652" selection-end="1652" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.html">
+      <file leaf-file-name="directive5.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/directive5.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="42" column="39" selection-start="1703" selection-end="1703" vertical-scroll-proportion="0.0">
+            <state line="30" column="23" selection-start="994" selection-end="994" vertical-scroll-proportion="0.0234375">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="users.html" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/views/users.html">
+      <file leaf-file-name="directive6.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/directive6.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="48" column="16" selection-start="2204" selection-end="2204" vertical-scroll-proportion="0.6380697">
+            <state line="30" column="0" selection-start="971" selection-end="971" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -79,31 +103,31 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/binding.html" />
-        <option value="$PROJECT_DIR$/js/main.js" />
-        <option value="$PROJECT_DIR$/binding1.html" />
-        <option value="$PROJECT_DIR$/binding2.html" />
-        <option value="$PROJECT_DIR$/service.html" />
-        <option value="$PROJECT_DIR$/filter.html" />
-        <option value="$PROJECT_DIR$/filter1.html" />
-        <option value="$PROJECT_DIR$/directives.html" />
-        <option value="$PROJECT_DIR$/directives1.html" />
-        <option value="$PROJECT_DIR$/directives2.html" />
-        <option value="$PROJECT_DIR$/behaviours.html" />
-        <option value="$PROJECT_DIR$/behaviours1.html" />
         <option value="$PROJECT_DIR$/views/form.html" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/directives2.html" />
+        <option value="$PROJECT_DIR$/behaviours.html" />
+        <option value="$PROJECT_DIR$/derectives3.html" />
+        <option value="$PROJECT_DIR$/directive5.html" />
+        <option value="$PROJECT_DIR$/transclusion.html" />
         <option value="$PROJECT_DIR$/js/app.js" />
         <option value="$PROJECT_DIR$/views/users.html" />
+        <option value="$PROJECT_DIR$/directive6.html" />
+        <option value="$PROJECT_DIR$/zipp.html" />
+        <option value="$PROJECT_DIR$/zippy.html" />
+        <option value="$PROJECT_DIR$/directives.html" />
+        <option value="$PROJECT_DIR$/directives1.html" />
+        <option value="$PROJECT_DIR$/directive3.html" />
+        <option value="$PROJECT_DIR$/directive4.html" />
       </list>
     </option>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="-139" />
+    <option name="x" value="-1" />
     <option name="y" value="27" />
-    <option name="width" value="1290" />
-    <option name="height" value="584" />
+    <option name="width" value="1154" />
+    <option name="height" value="838" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -158,7 +182,7 @@
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="options.lastSelected" value="appearance" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../complex-genie" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../cakephp-angular" />
     <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
   </component>
@@ -206,19 +230,19 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-139" y="27" width="1290" height="584" extended-state="0" />
-    <editor active="true" />
+    <frame x="-1" y="27" width="1154" height="838" extended-state="6" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16022544" sideWeight="0.94666666" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24954791" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19801085" sideWeight="0.8072464" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.19275363" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32911393" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.19275363" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -289,88 +313,88 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="1" selection-start="0" selection-end="252" vertical-scroll-proportion="0.43875685" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/binding1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="62" column="9" selection-start="1708" selection-end="1708" vertical-scroll-proportion="-11.166667" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/binding2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="69" column="4" selection-start="1740" selection-end="1740" vertical-scroll-proportion="0.94263864" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/bootstrap.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="22" selection-start="26" selection-end="26" vertical-scroll-proportion="0.028089888" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/directives1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="24" selection-start="0" selection-end="1641" vertical-scroll-proportion="0.16826004" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/directives2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="8" selection-start="0" selection-end="1804" vertical-scroll-proportion="0.39770555" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/directives.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="0" selection-start="0" selection-end="1561" vertical-scroll-proportion="0.36902484" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/behaviours1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="25" selection-start="1055" selection-end="1055" vertical-scroll-proportion="0.028680688" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/behaviours.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="45" column="38" selection-start="1350" selection-end="1350" vertical-scroll-proportion="-8.041667" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/form.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="8" selection-start="108" selection-end="108" vertical-scroll-proportion="-1.875" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/filter.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="66" column="37" selection-start="1877" selection-end="1877" vertical-scroll-proportion="-7.125" />
+        <state line="70" column="17" selection-start="1950" selection-end="1956" vertical-scroll-proportion="0.34375" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/service.html">
+    <entry file="file://$PROJECT_DIR$/factory.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="69" column="5" selection-start="1884" selection-end="1884" vertical-scroll-proportion="0.5598086" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/filter1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="98" column="10" selection-start="3047" selection-end="3047" vertical-scroll-proportion="0.569378" />
+        <state line="78" column="13" selection-start="2508" selection-end="2508" vertical-scroll-proportion="0.109375" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="39" selection-start="1703" selection-end="1703" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="69" column="27" selection-start="1359" selection-end="1359" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="35" column="52" selection-start="1510" selection-end="1510" vertical-scroll-proportion="-8.916667" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/views/users.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="48" column="16" selection-start="2204" selection-end="2204" vertical-scroll-proportion="0.6380697">
+        <state line="27" column="23" selection-start="1001" selection-end="1001" vertical-scroll-proportion="-16.416666" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="37" column="11" selection-start="743" selection-end="743" vertical-scroll-proportion="0.27108434" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zippy.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="35" column="104" selection-start="1237" selection-end="1237" vertical-scroll-proportion="0.09090909" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/binding.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="34" column="15" selection-start="1084" selection-end="1084" vertical-scroll-proportion="-12.916667" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/binding1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="43" column="26" selection-start="1348" selection-end="1355" vertical-scroll-proportion="-8.125" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/binding2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="52" selection-start="382" selection-end="382" vertical-scroll-proportion="-0.625" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/directives.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="53" column="54" selection-start="1587" selection-end="1587" vertical-scroll-proportion="0.8203125" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/directives1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="32" column="28" selection-start="1080" selection-end="1080" vertical-scroll-proportion="-9.166667" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/directives2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="33" column="22" selection-start="1043" selection-end="1043" vertical-scroll-proportion="-0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/directive3.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="33" column="24" selection-start="1103" selection-end="1103" vertical-scroll-proportion="10.833333" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/directive4.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="61" column="13" selection-start="1652" selection-end="1652" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/directive6.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="0" selection-start="971" selection-end="971" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/directive5.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="23" selection-start="994" selection-end="994" vertical-scroll-proportion="0.0234375">
           <folding />
         </state>
       </provider>

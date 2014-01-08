@@ -4,12 +4,9 @@ var angularJsAppModule = angular.module('angularJsApp',[]);
 
 angularJsAppModule.config(function($routeProvider){
 
-    $routeProvider.when('/users',{
-        templateUrl : 'views/users.html',
-        controller : 'UsersCtrl'
-    }).otherwise({
-       redirectTo :'/users'
-    });
+    $routeProvider.
+        when('/users',{ templateUrl : 'views/users.html', controller : 'UsersCtrl'})
+        .otherwise({ redirectTo :'/users'});
 
 
 });

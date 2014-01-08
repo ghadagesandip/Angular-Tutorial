@@ -30,8 +30,10 @@
 </div>
 
 <div class="jumbotron">
-    <div ng-app="myApp">
-        <div flash1 flash2></div>
+    <div ng-app="app">
+        <input type="text" data-ng-model="model.title">
+        <input type="text" data-ng-model="model.content">
+        <zippy title="{{model.title}}" ng-transclude >This is content :<span data-ng-bind="model.content"></span> </zippy>
     </div>
 </div>
 
@@ -46,25 +48,19 @@
 <script src="js/bootstrap.min.js"></script>
 <script>
 
-    var myApp = angular.module('myApp',[]);
+    var app = angular.module('app',[]);
 
-    myApp.directive("flash1",function(){
-       return {
-           restrict : "A",
-           link : function(){
-               console.log("i am working flash 1")
-           }
+    app.directive('zippy',function(){
+       return{
+           restrict:"E",
+           transclude:true,
+           scope:{
+             title:"@"
+           },
+           template:"<div>Hello word</div>"
        }
     });
 
-    myApp.directive("flash2",function(){
-        return {
-            restrict : "A",
-            link : function(){
-                console.log("i am working flash 2")
-            }
-        }
-    });
 
 </script>
 </body>

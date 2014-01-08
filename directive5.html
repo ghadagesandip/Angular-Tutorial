@@ -25,13 +25,16 @@
             </button>
             <a class="navbar-brand" href="#">Angular Js App</a>
         </div>
-
     </div>
 </div>
 
 <div class="jumbotron">
     <div ng-app="myApp">
-        <div flash1 flash2></div>
+        <div ng-controller="AppCtl">
+            <drink flavor="blackberry"></drink>
+        </div>
+
+
     </div>
 </div>
 
@@ -46,26 +49,32 @@
 <script src="js/bootstrap.min.js"></script>
 <script>
 
-    var myApp = angular.module('myApp',[]);
+    var app = angular.module("myApp",[]);
+    app.controller("AppCtl",function($scope){
 
-    myApp.directive("flash1",function(){
-       return {
-           restrict : "A",
-           link : function(){
-               console.log("i am working flash 1")
-           }
-       }
     });
 
-    myApp.directive("flash2",function(){
+    app.directive("drink",function(){
+       return {
+           restrict : "E",
+           scope:{
+               flavor : "@"
+           },
+           template:"<div>{{flavor}}</div>"
+
+       }
+    });
+/*
+    app.directive("drink",function(){
         return {
-            restrict : "A",
-            link : function(){
-                console.log("i am working flash 2")
+            restrict : "E",
+            template:"<div>{{flavor}}</div>",
+            link : function($scope,element,attrs){
+                $scope.flavor = attrs.flavor;
             }
         }
     });
-
+    */
 </script>
 </body>
 </html>

@@ -30,8 +30,12 @@
 </div>
 
 <div class="jumbotron">
-    <div ng-app="myApp">
-        <div flash1 flash2></div>
+    <div ng-app="myDirApp">
+        <div ng-controller="ChorCtl">
+            <kid done="logChore(task)"></kid>
+        </div>
+
+
     </div>
 </div>
 
@@ -46,26 +50,26 @@
 <script src="js/bootstrap.min.js"></script>
 <script>
 
-    var myApp = angular.module('myApp',[]);
+  var app = angular.module("myDirApp",[]);
 
-    myApp.directive("flash1",function(){
-       return {
-           restrict : "A",
-           link : function(){
-               console.log("i am working flash 1")
-           }
-       }
-    });
+  app.controller('ChorCtl',function($scope){
+     $scope.logChore = function(chore){
+            console.log(chore+ " is done");
+      }
+  });
 
-    myApp.directive("flash2",function(){
-        return {
-            restrict : "A",
-            link : function(){
-                console.log("i am working flash 2")
-            }
-        }
-    });
+  app.directive("kid",function(){
+     return {
+         restrict : "E",
+         scope:{
+             done : "&"
+         },
+         template : '<input type="text" data-ng-model="chore"><br/>'+
+                    '{{chore}}'+
+                    '<br/> <button class="btn" ng-click="done({task:chore})">I am done<button'
 
+     }
+  }) ;
 </script>
 </body>
 </html>
